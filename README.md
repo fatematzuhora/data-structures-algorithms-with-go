@@ -13,7 +13,7 @@ Linear search or sequential search sequentially checks each element of the list 
 * Best-case performance O(1)
 * Average performance O(n/2)
 
-### [Binary Search](binary_1.go)
+### [Binary Search](searching/binary_1.go)
 
 Binary search finds the position of a target value within a sorted array.
 
@@ -23,8 +23,8 @@ Binary search finds the position of a target value within a sorted array.
 * In case the key value is greater than the middle element then searches analyses the lower values to the middle element for comparison and matching
 
 Binary Search Algorithm can be implemented in two ways:
-1. [Iterative Method](binary_2.go)
-1. [Recursive Method](binary_3.go)
+1. [Iterative Method](searching/binary_2.go)
+1. [Recursive Method](searching/binary_3.go)
 
 ![binary_search](images/binary_search.gif)
 
