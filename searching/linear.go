@@ -2,9 +2,9 @@ package main
 
 import "fmt"
 
-func linearSearch(datalist []int, key int) bool {
+func linearSearch(datalist []int, target int) bool {
 	for _, item := range datalist {
-		if item == key {
+		if item == target {
 			return true
 		}
 	}
@@ -12,7 +12,7 @@ func linearSearch(datalist []int, key int) bool {
 }
 
 func main() {
-	numbers := []int{10, 13, 8, 7, 2, 9, 0, 6}
+	numbers := []int{10, 14, 19, 26, 27, 31, 33, 35, 42, 44}
 
-	fmt.Println(linearSearch(numbers, 9))
+	fmt.Println(linearSearch(numbers, 33))
 }
