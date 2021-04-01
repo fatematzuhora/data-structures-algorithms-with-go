@@ -34,6 +34,15 @@ Binary Search Algorithm can be implemented in two ways:
 
 ### Depth First Search
 
+Search algorithms are what allow us to traverse the entire graph or tree from a single starting point.
+
+As the name suggests, Depth first search (DFS) algorithm starts with the initial node of the graph, and then goes to deeper and deeper until we find the goal node or the node which has no children. The algorithm, then backtracks from the dead end towards the most recent node that is yet to be completely unexplored.
+
+![depth_first_search](images/DFS.gif)
+
+* Worst-case performance O(V+E) where V is the number of vertexes and E is the number of edges
+* Best-case performance O(1)
+
 ### Breadth First Search
 
 ## Sorting
