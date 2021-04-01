@@ -38,21 +38,6 @@ func (g *Graph) AddEdge(vertex, node string) bool {
 	return true
 }
 
-func (g Graph) DFS(startingNode string) {
-	visited := g.createVisited()
-	g.dfsRecursive(startingNode, visited)
-}
-
-func (g Graph) dfsRecursive(startingNode string, visited map[string]bool) {
-	visited[startingNode] = true
-	fmt.Println("Node: ", startingNode)
-	for _, node := range g.adjacency[startingNode] {
-		if !visited[node] {
-			g.dfsRecursive(node, visited)
-		}
-	}
-}
-
 func (g Graph) CreatePath(firstNode, secondNode string) bool {
 	visited := g.createVisited()
 	var (
@@ -100,6 +85,21 @@ func contains(slice []string, item string) bool {
 
 	_, ok := set[item]
 	return ok
+}
+
+func (g Graph) DFS(startingNode string) {
+	visited := g.createVisited()
+	g.dfsRecursive(startingNode, visited)
+}
+
+func (g Graph) dfsRecursive(startingNode string, visited map[string]bool) {
+	visited[startingNode] = true
+	fmt.Println("Node: ", startingNode)
+	for _, node := range g.adjacency[startingNode] {
+		if !visited[node] {
+			g.dfsRecursive(node, visited)
+		}
+	}
 }
 
 func main() {
