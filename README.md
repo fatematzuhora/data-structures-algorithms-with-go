@@ -32,7 +32,7 @@ Binary Search Algorithm can be implemented in two ways:
 * Best-case performance O(1)
 * Average performance O(log n)
 
-### Depth First Search
+### [Depth First Search](searching/dfs.go)
 
 Search algorithms are what allow us to traverse the entire graph or tree from a single starting point.
 
@@ -47,7 +47,7 @@ DFS is faster than BFS.
 * Worst-case performance O(V+E) where V is the number of vertexes and E is the number of edges
 * Best-case performance O(1)
 
-### Breadth First Search
+### [Breadth First Search](searching/bfs.go)
 
 Breadth first search (BFS) algorithm starts with the initial node (source or starting node) of the graph, and explores all of the neighbor nodes at the present depth prior before moving on to the nodes at the next depth level.
 
@@ -60,7 +60,7 @@ BFS uses Queue to find the shortest path.
 
 ## Sorting
 
-### Bubble Sort
+### [Bubble Sort](sorting/bubble.go)
 
 ### Insertion Sort
 
