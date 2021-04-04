@@ -62,6 +62,10 @@ BFS uses Queue to find the shortest path.
 
 ### [Bubble Sort](sorting/bubble.go)
 
+Bubble Sort compares all the element one by one and sort them based on their values.
+
+If the given array has to be sorted in ascending order, then bubble sort will start by comparing the first element of the array with the second element, if the first element is greater than the second element, it will swap both the elements, and then move on to compare the second and the third element, and so on.
+
 ![bubble_sort](images/bubble_sort.gif)
 
 * Worst-case performance O(n^2)
