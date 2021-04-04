@@ -64,9 +64,18 @@ BFS uses Queue to find the shortest path.
 
 ![bubble_sort](images/bubble_sort.gif)
 
-### Insertion Sort
+* Worst-case performance O(n^2)
+* Best-case performance O(n)
+* Average performance O(n^2)
+
+### [Insertion Sort](sorting/insertion.go)
 
 ![insertion_sort.gif](images/insertion_sort.gif)
+
+* Worst-case performance O(n^2)
+* Best-case performance O(n)
+* Average performance O(n^2)
+
 ### Selection Sort
 
 ### Heap Sort
