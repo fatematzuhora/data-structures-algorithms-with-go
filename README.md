@@ -62,8 +62,11 @@ BFS uses Queue to find the shortest path.
 
 ### [Bubble Sort](sorting/bubble.go)
 
+![bubble_sort](images/bubble_sort.gif)
+
 ### Insertion Sort
 
+![insertion_sort.gif](images/insertion_sort.gif)
 ### Selection Sort
 
 ### Heap Sort
