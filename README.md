@@ -58,6 +58,8 @@ BFS uses Queue to find the shortest path.
 * Worst-case performance O(V+E) where V is the number of vertexes and E is the number of edges
 * Best-case performance O(1)
 
+### Jump Search
+
 ## Sorting Algorithms
 
 ### [Bubble Sort](sorting/bubble.go)
@@ -107,3 +109,6 @@ If the given array has to be sorted in ascending order, then bubble sort will st
 ### Activity Selection
 
 ### Job sequencing problem
+
+## Types of Data Structures
+
