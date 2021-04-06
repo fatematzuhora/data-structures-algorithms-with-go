@@ -1,7 +1,7 @@
 # Data Structures & Algorithms with Go
 Data Structures, Algorithms with Golang
 
-## Searching
+## Searching Algorithms
 
 ### [Linear Search](searching/linear.go)
 
@@ -58,7 +58,7 @@ BFS uses Queue to find the shortest path.
 * Worst-case performance O(V+E) where V is the number of vertexes and E is the number of edges
 * Best-case performance O(1)
 
-## Sorting
+## Sorting Algorithms
 
 ### [Bubble Sort](sorting/bubble.go)
 
@@ -90,3 +90,20 @@ If the given array has to be sorted in ascending order, then bubble sort will st
 
 ### Counting Sort
 
+## Recursive Algorithms
+
+### Factorial
+
+### Exponential
+
+### Tower of hanoi
+
+## Greedy Algorithms
+
+### Huffman coding
+
+### Fractional knapsack problem
+
+### Activity Selection
+
+### Job sequencing problem
